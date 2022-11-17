@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start" defaulthref="/tabs/characters">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">CHARACTER DETAIL</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngIf="character">
+    <ion-item lines="none" class = "character-name">
+      Name: {{ character.name }}
+    </ion-item>
+    <ion-item lines="none">
+      Nickname: {{ character.nickname }}
+    </ion-item>
+    <ion-item lines="none">
+      Birthday: {{ character.birthday }}
+    </ion-item>
+    <ion-item>
+      Occupation: {{ character.occupation }}
+    </ion-item>
+    <ion-item>
+      Status: {{ character.status }}
+    </ion-item>
+
+  </ion-card>
+</ion-content>
