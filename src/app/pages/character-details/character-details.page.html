@@ -10,18 +10,23 @@
 <ion-content padding>
   <ion-card *ngIf="character">
     <ion-item lines="none" class = "character-name">
+      <ion-icon name="person" slot="start"></ion-icon>
       Name: {{ character.name }}
     </ion-item>
     <ion-item lines="none">
+      <ion-icon name="arrow-forward" slot="start"></ion-icon>
       Nickname: {{ character.nickname }}
     </ion-item>
     <ion-item lines="none">
+      <ion-icon name="arrow-forward" slot="start"></ion-icon>
       Birthday: {{ character.birthday }}
     </ion-item>
     <ion-item>
+      <ion-icon name="arrow-forward" slot="start"></ion-icon>
       Occupation: {{ character.occupation }}
     </ion-item>
     <ion-item>
+      <ion-icon name="arrow-forward" slot="start"></ion-icon>
       Status: {{ character.status }}
     </ion-item>
 
