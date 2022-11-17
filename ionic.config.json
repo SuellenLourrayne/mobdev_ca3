@@ -1,5 +1,7 @@
 {
-  "name": "mobdev-app",
-  "integrations": {},
+  "name": "mobdev-ionic-intro",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
